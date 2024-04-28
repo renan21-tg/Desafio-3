@@ -3,10 +3,19 @@ body {
 }
 
 .navbar-white {
-    background-color: rgba(255, 255, 255, 0.8); 
+    background-color: rgb(255, 255, 255)
 }
 
 .navbar-brand img {
-    height: 40px; 
-    margin-right: 10px; 
+    height: 75px; 
+    margin-right: 15px; 
 }
+
+.carousel-fade .carousel-item {
+    opacity: 0;
+    transition: opacity ease-in-out .5s;
+}
+.carousel-fade .carousel-item.active {
+    opacity: 1;
+}
+
