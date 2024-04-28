@@ -23,3 +23,39 @@ body {
     background-color: rgb(231, 226, 219);
     padding: 10px;
 }
+
+#carouselExampleFade {
+    height: 100vh;
+}
+
+.carousel-inner img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-collapse {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.carousel-inner {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.carousel-item img {
+    margin-left: auto;
+    margin-right: auto;
+}
