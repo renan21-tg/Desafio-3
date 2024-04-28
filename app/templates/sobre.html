@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speccialle Assessoria - Tipos de Eventos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/index">
+                <img src="{{ url_for('static', filename='img/logovertical.jpg') }}" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo da Página -->
+    <div class="container mt-5">
+        <h1 class="text-center">Tipos de Eventos</h1>
+        <div class="mt-5">
+            <h2>Casamentos</h2>
+            <p>
+                Celebre o amor e a união em um evento repleto de magia e romantismo. Nós da Speccialle Assessoria acreditamos que cada
+                casamento é único, e é por isso que dedicamos todo o nosso cuidado e atenção para tornar seu grande dia absolutamente
+                perfeito. Desde a escolha do local até a seleção dos fornecedores e decoração, estamos aqui para transformar seus
+                sonhos em realidade. Conte conosco para criar uma atmosfera encantadora que reflete a personalidade e o estilo do
+                casal, garantindo que cada momento seja memorável para vocês e seus convidados.
+            </p>
+            <h3>O que oferecemos:</h3>
+            <ul>
+                <li>Planejamento detalhado desde o início até o fim;</li>
+                <li>Seleção de fornecedores confiáveis e de qualidade;</li>
+                <li>Decoração personalizada que reflete a essência do casal;</li>
+                <li>Coordenação do dia do casamento para garantir que tudo corra perfeitamente;</li>
+                <li>Assistência dedicada para tornar seus sonhos em realidade.</li>
+            </ul>
+        </div>
+        <div class="mt-5">
+            <h2>Festas de 15 Anos</h2>
+            <p>
+                Os 15 anos é uma ocasião especial na vida de qualquer jovem, e merece ser celebrado com estilo e elegância. Na
+                Speccialle Assessoria, entendemos a importância desse momento e nos dedicamos a criar festas que sejam verdadeiramente
+                inesquecíveis. Desde a concepção do tema até a organização de cada detalhe, estamos aqui para fazer com que o
+                aniversário de 15 anos de sua filha seja digno de conto de fadas. Deixe-nos cuidar de todos os aspectos do evento,
+                para que você possa relaxar e desfrutar deste momento especial ao lado de sua família e amigos.
+            </p>
+            <h3>O que oferecemos:</h3>
+            <ul>
+                <li>Desenvolvimento de temas criativos e personalizados;</li>
+                <li>Coordenação de todos os aspectos da festa, desde a decoração até a música;</li>
+                <li>Seleção de fornecedores experientes e confiáveis;</li>
+                <li>Assistência completa durante o planejamento e execução do evento;</li>
+                <li>Gestão do cronograma para garantir que tudo ocorra conforme o planejado.</li>
+            </ul>
+        </div>
+        <div class="mt-5">
+            <h2>Formaturas</h2>
+            <p>
+                O fim de uma jornada educacional merece ser celebrado com grande estilo. Na Speccialle Assessoria, entendemos a
+                importância da formatura na vida de cada estudante, e estamos aqui para tornar esse momento tão especial quanto
+                possível. Seja uma formatura escolar, universitária ou de pós-graduação, cuidaremos de todos os detalhes para que
+                você possa se concentrar em comemorar e criar memórias duradouras com seus amigos e familiares.
+            </p>
+            <h3>O que oferecemos:</h3>
+            <ul>
+                <li>Planejamento e organização completa da cerimônia e da festa de formatura;</li>
+                <li>Assessoria na seleção de trajes, convites e decoração;</li>
+                <li>Coordenação do cronograma para garantir que tudo ocorra sem problemas;</li>
+                <li>Gerenciamento de todos os aspectos logísticos, incluindo local, transporte e alimentação;</li>
+                <li>Assistência dedicada para tornar sua formatura uma experiência inesquecível.</li>
+            </ul>
+        </div>
+        <div class="mt-5">
+            <h2>Eventos Corporativos</h2>
+            <p>
+                Desde lançamentos de produtos até conferências e workshops, os eventos corporativos desempenham um papel fundamental
+                na estratégia de negócios de uma empresa. Na Speccialle Assessoria, entendemos a importância de impressionar seus
+                clientes e colaboradores, e estamos aqui para garantir que seu evento corporativo seja um sucesso absoluto. Com
+                nossa experiência e criatividade, podemos transformar sua visão em realidade e criar uma experiência que deixará
+                uma impressão duradoura.
+            </p>
+            <h3>O que oferecemos:</h3>
+            <ul>
+                <li>Planejamento e organização detalhados para atender às necessidades específicas de sua empresa;</li>
+                <li>Desenvolvimento de conceitos criativos e personalizados para destacar sua marca;</li>
+                <li>Coordenação de todos os aspectos do evento, desde a logística até o entretenimento;</li>
+                <li>Gestão de fornecedores e contratos para garantir a qualidade e o sucesso do evento;</li>
+                <li>Assistência profissional para garantir que seu evento corporativo seja memorável e eficaz.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-custom mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Contato</h5>
+                    <p>Endereço: 123 Rua Principal, Cidade, Estado</p>
+                    <p>Email: contato@exemplo.com</p>
+                    <p>Telefone: (00) 1234-5678</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speccialle Assessoria</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/index">
+                <img src="{{ url_for('static', filename='img/logovertical.jpg') }}" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--Carrossel-->
+    <div class="container">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img class="d-block w-100" src="{{ url_for('static', filename='img/casamento_4.jpg') }}" alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="{{ url_for('static', filename='img/formatura.jpg') }}" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="{{ url_for('static', filename='img/evento_3.jpeg') }}" alt="Terceiro Slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+        </div>
+    </div>
+
+
+<!-- Conteúdo da Página -->
+
+    <div class="container mt-5">
+        <h1 class="text-center">Bem-vindo à Specialle Assessoria</h1>
+        <p class="lead text-center">
+        No coração de cada momento especial reside a essência do cerimonialismo. Na Specialle Assessoria, mergulhamos profundamente nessa essência, dedicando-nos incansavelmente a transformar os sonhos em realidade. Cada evento que planejamos e realizamos não é apenas uma ocasião, mas sim uma narrativa envolvente e inesquecível, meticulosamente tecida com cuidado, criatividade e paixão.
+        <br><br>
+        Acreditamos que cada detalhe importa, desde a escolha das flores até a seleção da música, pois são esses detalhes que dão vida à celebração e eternizam momentos especiais. Nossa equipe é composta por profissionais apaixonados, comprometidos em proporcionar uma experiência única e personalizada para cada cliente.
+        <br><br>
+        Seja um casamento íntimo em um jardim encantado ou um evento corporativo grandioso em um centro de convenções, estamos aqui para superar suas expectativas e transformar suas visões em realidade. Junte-se a nós nesta jornada emocionante, onde cada evento se torna uma história única e memorável."
+        </p>
+        <div class="mt-5">
+        <h2 class="text-center">Crie Memórias Duradouras</h2>
+        <p class="lead text-center">Dos casamentos mais íntimos, onde o amor é celebrado em um cenário de conto de fadas, aos eventos corporativos repletos de energia e criatividade, nossa missão é fazer de cada ocasião uma experiência verdadeiramente memorável. Nosso compromisso vai além de simplesmente planejar e coordenar eventos; é sobre capturar a essência de cada momento e transformá-lo em uma história que será lembrada para sempre.</p>
+        </div>
+        <div class="mt-5">
+        <h2 class="text-center">Nossa Missão</h2>
+        <p class="lead text-center">Na Specialle Assessoria, nossa missão vai além de simplesmente organizar eventos; é sobre criar momentos de pura magia, onde cada detalhe é meticulosamente elaborado para contar a história única de nossos clientes. Com uma equipe dedicada e apaixonada, estamos empenhados em superar expectativas e transformar os sonhos de nossos clientes em realidade.</p>
+        </div>
+        <div class="mt-5">
+        <h2 class="text-center">Entre em Contato</h2>
+        <p class="lead text-center">Estamos ansiosos para colaborar em seu próximo evento e criar lembranças que durarão uma vida inteira. Entre em contato conosco hoje mesmo para dar o primeiro passo em direção a uma experiência única e memorável.</p>
+        </div>
+        <div class="text-center mt-5 mb-3">
+        <a href="#" class="btn btn-primary btn-lg">Celebre Conosco</a>
+        </div>
+    </div>
+
+<!--Rodapé-->
+
+    <footer class="bg-custom mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Contato</h5>
+                    <p>Endereço: 123 Rua Principal, Cidade, Estado</p>
+                    <p>Email: contato@exemplo.com</p>
+                    <p>Telefone: (00) 1234-5678</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- Scripts do Bootstrap -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+
+</body>
+</html>

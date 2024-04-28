@@ -34,28 +34,10 @@ body {
     object-fit: cover;
 }
 
-.container {
-    max-width: 100%;
-    padding-right: 0;
-    padding-left: 0;
+ul{
+    margin: 50px;
 }
 
-.navbar {
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-.navbar-collapse {
-    margin-left: -15px;
-    margin-right: -15px;
-}
-
-.carousel-inner {
-    margin-left: -15px;
-    margin-right: -15px;
-}
-
-.carousel-item img {
-    margin-left: auto;
-    margin-right: auto;
+h3{
+    margin: 30px;
 }
