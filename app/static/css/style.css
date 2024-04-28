@@ -19,3 +19,7 @@ body {
     opacity: 1;
 }
 
+.bg-custom{
+    background-color: rgb(231, 226, 219);
+    padding: 10px;
+}
