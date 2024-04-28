@@ -41,3 +41,15 @@ ul{
 h3{
     margin: 30px;
 }
+
+.card {
+    height: 100%;
+}
+.card-img-top {
+    height: 200px; /* Altura desejada para as imagens */
+    object-fit: cover; /* Manter a proporção */
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
