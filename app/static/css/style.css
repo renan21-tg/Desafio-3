@@ -1,0 +1,12 @@
+body {
+    padding-top: 80px; 
+}
+
+.navbar-white {
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.navbar-brand img {
+    height: 40px; 
+    margin-right: 10px; 
+}
