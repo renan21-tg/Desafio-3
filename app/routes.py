@@ -13,3 +13,7 @@ def sobre():
 @app.route('/contato')
 def cntato():
     return render_template('contato.html')
+
+@app.route('/forms')
+def forms():
+    return render_template('forms.html')

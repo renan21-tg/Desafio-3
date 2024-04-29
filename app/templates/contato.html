@@ -1,101 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - Specialle Assessoria</title>
+    <title>Contato</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
+
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="/index">
-            <img src="{{ url_for('static', filename='img/logovertical.jpg') }}" alt="Logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/index">
+                <img src="{{ url_for('static', filename='img/logovertical.jpg') }}" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/sobre">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/contato">Contato</a>
-                </li>
-            </ul>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
 <!-- Content -->
-<div class="container mt-5">
-    <h1 class="text-center mb-4">Entre em Contato</h1>
-    <div class="row">
-        <div class="col-md-3">
-            <div class="card">
-                <img src="{{ url_for('static', filename='img/casamento_4.jpg') }}" class="card-img-top" alt="Casamento">
-                <div class="card-body">
-                    <h5 class="card-title">Casamento</h5>
-                    <p class="card-text">Clique aqui para entrar em contato e saber mais sobre nossos serviços para casamentos.</p>
-                    <a href="#" class="btn btn-primary">Contatar</a>
+    <div class="cards_cont">
+        <div class="container mt-5">
+            <h1 class="text-center mb-4">Entre em Contato</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{{ url_for('static', filename='img/casamento_4.jpg') }}" class="card-img-top" alt="Casamento">
+                        <div class="card-body">
+                            <h5 class="card-title">Casamento</h5>
+                            <p class="card-text">Clique aqui para entrar em contato e saber mais sobre nossos serviços para casamentos.</p>
+                            <a href="/forms" class="btn btn-primary" id="btnv">Contatar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{{ url_for('static', filename='img/festa15.jpg') }}" class="card-img-top" alt="Festa de 15 Anos">
+                        <div class="card-body">
+                            <h5 class="card-title">Festa de 15 Anos</h5>
+                            <p class="card-text">Clique aqui para entrar em contato e saber mais sobre nossos serviços para festas de 15 anos.</p>
+                            <a href="/forms" class="btn btn-primary" id="btnv">Contatar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{{ url_for('static', filename='img/evento_3.jpeg') }}" class="card-img-top" alt="Evento Corporativo">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento Corporativo</h5>
+                            <p class="card-text">Clique aqui para entrar em contato e saber mais sobre nossos serviços para eventos corporativos.</p>
+                            <a href="/forms" class="btn btn-primary" id="btnv">Contatar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{{ url_for('static', filename='img/formatura.jpg') }}" class="card-img-top" alt="Formatura">
+                        <div class="card-body">
+                            <h5 class="card-title">Formatura</h5>
+                            <p class="card-text">Clique aqui para entrar em contato e saber mais sobre nossos serviços para formaturas.</p>
+                            <a href="/forms" class="btn btn-primary" id="btnv">Contatar</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
-            <div class="card">
-                <img src="{{ url_for('static', filename='img/festa15.jpg') }}" class="card-img-top" alt="Festa de 15 Anos">
-                <div class="card-body">
-                    <h5 class="card-title">Festa de 15 Anos</h5>
-                    <p class="card-text">Clique aqui para entrar em contato e saber mais sobre nossos serviços para festas de 15 anos.</p>
-                    <a href="#" class="btn btn-primary">Contatar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <img src="{{ url_for('static', filename='img/evento_3.jpeg') }}" class="card-img-top" alt="Evento Corporativo">
-                <div class="card-body">
-                    <h5 class="card-title">Evento Corporativo</h5>
-                    <p class="card-text">Clique aqui para entrar em contato e saber mais sobre nossos serviços para eventos corporativos.</p>
-                    <a href="#" class="btn btn-primary">Contatar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <img src="{{ url_for('static', filename='img/formatura.jpg') }}" class="card-img-top" alt="Formatura">
-                <div class="card-body">
-                    <h5 class="card-title">Formatura</h5>
-                    <p class="card-text">Clique aqui para entrar em contato e saber mais sobre nossos serviços para formaturas.</p>
-                    <a href="#" class="btn btn-primary">Contatar</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+    </div>  
 
 <!-- Footer -->
-<footer class="bg-custom mt-3">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h5>Contato</h5>
-                <p>Endereço: 123 Rua Principal, Cidade, Estado</p>
-                <p>Email: contato@exemplo.com</p>
-                <p>Telefone: (00) 1234-5678</p>
+    <footer class="bg-custom mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Contato</h5>
+                    <p>Endereço: 123 Rua Principal, Cidade, Estado</p>
+                    <p>Email: contato@exemplo.com</p>
+                    <p>Telefone: (00) 1234-5678</p>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
 <!-- Scripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

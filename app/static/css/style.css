@@ -46,10 +46,26 @@ h3{
     height: 100%;
 }
 .card-img-top {
-    height: 200px; /* Altura desejada para as imagens */
-    object-fit: cover; /* Manter a proporção */
+    height: 200px;
+    object-fit: cover; 
 }
 .card-body {
     display: flex;
     flex-direction: column;
+}
+
+.cards_cont{
+    height: 70vh;
+}
+
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+#btnv{
+    background-color: #8fac3d;
+    border: none;
 }
