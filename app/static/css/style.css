@@ -74,6 +74,13 @@ h3{
     height: 85vh;
 }
 
+.btn_sub{
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Estilos para dispositivos móveis */
 @media (max-width: 767px) {
     /* Navbar */
