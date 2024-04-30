@@ -24,6 +24,11 @@ body {
     padding: 10px;
 }
 
+.custom-lead {
+    font-size: 1.25rem; /* ou o tamanho desejado */
+    line-height: 1.5;
+    color: black; /* ou a cor desejada */
+}
 
 .carousel-inner img {
     width: 100vw;
