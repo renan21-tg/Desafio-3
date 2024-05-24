@@ -1,4 +1,4 @@
-# Desafio 3
+# Projeto SA
 
 Este projeto consiste na criação de um site para uma empresa de cerimonialista chamada "Specialle Assessoria". O site tem como objetivo apresentar os serviços oferecidos pela empresa, informações de contato e permitir que os visitantes entrem em contato para solicitar mais informações ou agendar serviços.
 
