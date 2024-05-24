@@ -10,7 +10,7 @@ Este projeto consiste na criação de um site para uma empresa de cerimonialista
 
 ## Descrição
 
-Este projeto é um site estático desenvolvido no Microframework Flask usando HTML, CSS. Ele inclui várias páginas, como a página inicial, página "Sobre", página de "Contato" e uma página de formulário para os visitantes entrarem em contato com a empresa. O site é responsivo e foi desenvolvido utilizando o framework Bootstrap para facilitar o desenvolvimento e garantir uma boa experiência do usuário em diferentes dispositivos.
+Este projeto é um site estático desenvolvido no Microframework Flask usando HTML, CSS. Ele inclui várias páginas, como a página inicial, página "Sobre", página de "Contato" e uma página de formulário para os visitantes entrarem em contato com a empresa. O site é responsivo e foi desenvolvido utilizando o framework Bootstrap para facilitar o desenvolvimento e garantir uma boa experiência do usuário em diferentes dispositivos. Além disso conta com integração de banco de dados utilizando o MySQL.
 
 ## Requisitos
 
@@ -20,6 +20,7 @@ O que foi exigido para a criacão desse site:
 - utilizar pelo menos 5 componentes do framework Bootstrap
 - Aplicar o recurso @media para aplicar responsividade
 - Utilizar o Flexbox para organizar os elementos
+-Integração com MySQL
 
 ## Componentes do Bootstrap Utilizados
 
