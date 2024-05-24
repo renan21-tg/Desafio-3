@@ -4,13 +4,12 @@ Este projeto consiste na criação de um site para uma empresa de cerimonialista
 
 ## Informações do Projeto
 
-- **Nome do Projeto:** Desafio 3 "Estado da Arte"
 - **Empresa:** Specialle Assessoria
 - **Desenvolvedor:** Renan Tomasi
 
 ## Descrição
 
-Este projeto é um site estático desenvolvido no Microframework Flask usando HTML, CSS. Ele inclui várias páginas, como a página inicial, página "Sobre", página de "Contato" e uma página de formulário para os visitantes entrarem em contato com a empresa. O site é responsivo e foi desenvolvido utilizando o framework Bootstrap para facilitar o desenvolvimento e garantir uma boa experiência do usuário em diferentes dispositivos. Além disso conta com integração de banco de dados utilizando o MySQL.
+Este projeto é um site estático desenvolvido utilizando o microframework Flask, com HTML e CSS. O site inclui várias páginas, como a página inicial, página "Sobre", página de "Contato" e uma página de formulário para os visitantes entrarem em contato com a empresa. A interface é responsiva e foi desenvolvida com o framework Bootstrap, garantindo uma excelente experiência do usuário em diferentes dispositivos. Além disso, o site integra um banco de dados MySQL para gerenciar os dados dos formulários de contato.
 
 ## Requisitos
 
@@ -20,7 +19,7 @@ O que foi exigido para a criacão desse site:
 - utilizar pelo menos 5 componentes do framework Bootstrap
 - Aplicar o recurso @media para aplicar responsividade
 - Utilizar o Flexbox para organizar os elementos
--Integração com MySQL
+- Integração com MySQL
 
 ## Componentes do Bootstrap Utilizados
 
@@ -37,10 +36,37 @@ Durante o desenvolvimento do site, os seguintes componentes do Bootstrap foram u
 ## Como Executar o Projeto
 
 1. Clone este repositório para o seu ambiente local.
-2. Crie seu ambiente virtual e nele instale o Flask
-3. Utilize o comando "run flask" para iniciar
-4. Navegue pelo site para explorar suas diferentes páginas e funcionalidades.
-
+  ```git
+  git clone https://github.com/renan21-tg/Projeto-SA
+  ```
+2. Crie e inicie seu ambiente virtual:
+  ```shell
+  python -m venv venv
+  ```
+  ```shell
+  .\venv\Scripts\activate
+  ```
+3. Instale o flask através do arquivo requirements.txt
+  ```shell
+  pip install -r requirements.txt
+  ```
+4. Crie o banco de dados no seu MySQL através do script.sql
+  ```sql
+  CREATE DATABASE Speccialle;
+  
+  USE Speccialle;
+  
+  CREATE TABLE Contatos (
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      Nome VARCHAR(100) NOT NULL,
+      Email VARCHAR(100) NOT NULL,
+      Mensagem TEXT NOT NULL
+  );
+  ```
+5. Inicie o flask
+  ```shell
+  flask run
+  ```
 ## Contribuição
 
 Contribuições são bem-vindas! Se você deseja contribuir com este projeto, por favor, abra uma issue ou envie um pull request.
