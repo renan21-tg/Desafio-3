@@ -20,7 +20,7 @@ app.secret_key = 'assessoria'
 
 #Config MySQL
 app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_USER'] = 'fatec'
 app.config['MYSQL_PASSWORD'] = 'fatec'
 app.config['MYSQL_DB'] = 'speccialle'
 
